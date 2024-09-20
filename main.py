@@ -66,7 +66,7 @@ async def start(message: Message):
         buttons = ReplyKeyboardMarkup(keyboard=kb, resize_keyboard=True)
 
 
-        await message.answer(f"Botimizga xush kelibsiz! {message.from_user.first_name}, StartUp loyiha boshlash uchun /StartUp_taklif_yuborish tugmasini bosing", reply_markup=buttons)
+        await message.answer(f"Assalomu aleykum botimizga xush kelibsiz! {message.from_user.first_name}, StartUp loyiha boshlash uchun /StartUp_taklif_yuborish tugmasini bosing", reply_markup=buttons)
 
 @dp.message(F.text == '/bugungi_arizalar')
 async def start_ordering(message: Message):
